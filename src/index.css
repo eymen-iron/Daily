@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    html,body,#root{
+        @apply flex items-center justify-center w-screen h-screen bg-bg
+    }
+    input[checkbox]{
+        width: 25px!important;
+        height: 25px!important;
+    }
+}
